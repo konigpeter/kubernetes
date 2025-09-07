@@ -9,6 +9,8 @@ spec:
       name: nginx
 ```
 
+
+
 Criando um simples pod:
 ```
 kubectl run nginx --image nginx -o yaml --dry-run=client
@@ -27,6 +29,8 @@ ou:
 ```
 kubectl get pod primeiro-pod -o yaml > pod.yaml
 ```
+
+
 
 Multiple containers:
 ```
